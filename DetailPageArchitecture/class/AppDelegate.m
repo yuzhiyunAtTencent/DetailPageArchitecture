@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YUNRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];//设置窗口
+    UIViewController *mainVC = [[YUNRootViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = nav;//进入的首个页面
+    [self.window makeKeyAndVisible];//显示
     return YES;
 }
 

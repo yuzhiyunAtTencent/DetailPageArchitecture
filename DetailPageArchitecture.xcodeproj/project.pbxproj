@@ -8,24 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		28439A5921CC8EE2007E86BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A5821CC8EE2007E86BF /* AppDelegate.m */; };
-		28439A5C21CC8EE2007E86BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A5B21CC8EE2007E86BF /* ViewController.m */; };
-		28439A5F21CC8EE2007E86BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28439A5D21CC8EE2007E86BF /* Main.storyboard */; };
 		28439A6121CC8EE4007E86BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28439A6021CC8EE4007E86BF /* Assets.xcassets */; };
 		28439A6421CC8EE4007E86BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28439A6221CC8EE4007E86BF /* LaunchScreen.storyboard */; };
 		28439A6721CC8EE4007E86BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A6621CC8EE4007E86BF /* main.m */; };
+		28439A6F21CC8F65007E86BF /* YUNRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A6E21CC8F65007E86BF /* YUNRootViewController.m */; };
+		28439A7321CC90C9007E86BF /* YUNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A7221CC90C9007E86BF /* YUNDetailViewController.m */; };
+		28439A7E21CCBC0B007E86BF /* WechatIMG18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7421CCBC0A007E86BF /* WechatIMG18.jpeg */; };
+		28439A7F21CCBC0B007E86BF /* WechatIMG14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7521CCBC0A007E86BF /* WechatIMG14.jpeg */; };
+		28439A8021CCBC0B007E86BF /* YUNNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A7621CCBC0A007E86BF /* YUNNewsCell.m */; };
+		28439A8121CCBC0B007E86BF /* YUNNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A7721CCBC0A007E86BF /* YUNNewsItem.m */; };
+		28439A8221CCBC0B007E86BF /* WechatIMG17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7821CCBC0A007E86BF /* WechatIMG17.jpeg */; };
+		28439A8321CCBC0B007E86BF /* WechatIMG16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7921CCBC0A007E86BF /* WechatIMG16.jpeg */; };
+		28439A8421CCBC0B007E86BF /* WechatIMG15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7A21CCBC0A007E86BF /* WechatIMG15.jpeg */; };
+		28439A8521CCBC0B007E86BF /* WechatIMG19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7C21CCBC0A007E86BF /* WechatIMG19.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28439A5421CC8EE2007E86BF /* DetailPageArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetailPageArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28439A5721CC8EE2007E86BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28439A5821CC8EE2007E86BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28439A5A21CC8EE2007E86BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28439A5B21CC8EE2007E86BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28439A5E21CC8EE2007E86BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28439A6021CC8EE4007E86BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28439A6321CC8EE4007E86BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28439A6521CC8EE4007E86BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28439A6621CC8EE4007E86BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28439A6D21CC8F65007E86BF /* YUNRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNRootViewController.h; sourceTree = "<group>"; };
+		28439A6E21CC8F65007E86BF /* YUNRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUNRootViewController.m; sourceTree = "<group>"; };
+		28439A7121CC90C9007E86BF /* YUNDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUNDetailViewController.h; sourceTree = "<group>"; };
+		28439A7221CC90C9007E86BF /* YUNDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUNDetailViewController.m; sourceTree = "<group>"; };
+		28439A7421CCBC0A007E86BF /* WechatIMG18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG18.jpeg; sourceTree = "<group>"; };
+		28439A7521CCBC0A007E86BF /* WechatIMG14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG14.jpeg; sourceTree = "<group>"; };
+		28439A7621CCBC0A007E86BF /* YUNNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNNewsCell.m; sourceTree = "<group>"; };
+		28439A7721CCBC0A007E86BF /* YUNNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUNNewsItem.m; sourceTree = "<group>"; };
+		28439A7821CCBC0A007E86BF /* WechatIMG17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG17.jpeg; sourceTree = "<group>"; };
+		28439A7921CCBC0A007E86BF /* WechatIMG16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG16.jpeg; sourceTree = "<group>"; };
+		28439A7A21CCBC0A007E86BF /* WechatIMG15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG15.jpeg; sourceTree = "<group>"; };
+		28439A7B21CCBC0A007E86BF /* YUNNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNNewsItem.h; sourceTree = "<group>"; };
+		28439A7C21CCBC0A007E86BF /* WechatIMG19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG19.jpeg; sourceTree = "<group>"; };
+		28439A7D21CCBC0B007E86BF /* YUNNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNNewsCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +77,36 @@
 		28439A5621CC8EE2007E86BF /* DetailPageArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				28439A5721CC8EE2007E86BF /* AppDelegate.h */,
-				28439A5821CC8EE2007E86BF /* AppDelegate.m */,
-				28439A5A21CC8EE2007E86BF /* ViewController.h */,
-				28439A5B21CC8EE2007E86BF /* ViewController.m */,
-				28439A5D21CC8EE2007E86BF /* Main.storyboard */,
+				28439A7021CC909C007E86BF /* class */,
 				28439A6021CC8EE4007E86BF /* Assets.xcassets */,
 				28439A6221CC8EE4007E86BF /* LaunchScreen.storyboard */,
 				28439A6521CC8EE4007E86BF /* Info.plist */,
 				28439A6621CC8EE4007E86BF /* main.m */,
 			);
 			path = DetailPageArchitecture;
+			sourceTree = "<group>";
+		};
+		28439A7021CC909C007E86BF /* class */ = {
+			isa = PBXGroup;
+			children = (
+				28439A7521CCBC0A007E86BF /* WechatIMG14.jpeg */,
+				28439A7A21CCBC0A007E86BF /* WechatIMG15.jpeg */,
+				28439A7921CCBC0A007E86BF /* WechatIMG16.jpeg */,
+				28439A7821CCBC0A007E86BF /* WechatIMG17.jpeg */,
+				28439A7421CCBC0A007E86BF /* WechatIMG18.jpeg */,
+				28439A7C21CCBC0A007E86BF /* WechatIMG19.jpeg */,
+				28439A7D21CCBC0B007E86BF /* YUNNewsCell.h */,
+				28439A7621CCBC0A007E86BF /* YUNNewsCell.m */,
+				28439A7B21CCBC0A007E86BF /* YUNNewsItem.h */,
+				28439A7721CCBC0A007E86BF /* YUNNewsItem.m */,
+				28439A6D21CC8F65007E86BF /* YUNRootViewController.h */,
+				28439A6E21CC8F65007E86BF /* YUNRootViewController.m */,
+				28439A5721CC8EE2007E86BF /* AppDelegate.h */,
+				28439A5821CC8EE2007E86BF /* AppDelegate.m */,
+				28439A7121CC90C9007E86BF /* YUNDetailViewController.h */,
+				28439A7221CC90C9007E86BF /* YUNDetailViewController.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +166,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28439A8321CCBC0B007E86BF /* WechatIMG16.jpeg in Resources */,
+				28439A7E21CCBC0B007E86BF /* WechatIMG18.jpeg in Resources */,
 				28439A6421CC8EE4007E86BF /* LaunchScreen.storyboard in Resources */,
+				28439A8221CCBC0B007E86BF /* WechatIMG17.jpeg in Resources */,
+				28439A7F21CCBC0B007E86BF /* WechatIMG14.jpeg in Resources */,
 				28439A6121CC8EE4007E86BF /* Assets.xcassets in Resources */,
-				28439A5F21CC8EE2007E86BF /* Main.storyboard in Resources */,
+				28439A8421CCBC0B007E86BF /* WechatIMG15.jpeg in Resources */,
+				28439A8521CCBC0B007E86BF /* WechatIMG19.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +184,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28439A5C21CC8EE2007E86BF /* ViewController.m in Sources */,
 				28439A6721CC8EE4007E86BF /* main.m in Sources */,
+				28439A8021CCBC0B007E86BF /* YUNNewsCell.m in Sources */,
+				28439A8121CCBC0B007E86BF /* YUNNewsItem.m in Sources */,
 				28439A5921CC8EE2007E86BF /* AppDelegate.m in Sources */,
+				28439A7321CC90C9007E86BF /* YUNDetailViewController.m in Sources */,
+				28439A6F21CC8F65007E86BF /* YUNRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28439A5D21CC8EE2007E86BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28439A5E21CC8EE2007E86BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28439A6221CC8EE4007E86BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
