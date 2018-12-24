@@ -21,6 +21,7 @@
 		28439A8321CCBC0B007E86BF /* WechatIMG16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7921CCBC0A007E86BF /* WechatIMG16.jpeg */; };
 		28439A8421CCBC0B007E86BF /* WechatIMG15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7A21CCBC0A007E86BF /* WechatIMG15.jpeg */; };
 		28439A8521CCBC0B007E86BF /* WechatIMG19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 28439A7C21CCBC0A007E86BF /* WechatIMG19.jpeg */; };
+		28439A8C21D0C295007E86BF /* UIView+QNUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 28439A8B21D0C295007E86BF /* UIView+QNUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		28439A7B21CCBC0A007E86BF /* YUNNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNNewsItem.h; sourceTree = "<group>"; };
 		28439A7C21CCBC0A007E86BF /* WechatIMG19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG19.jpeg; sourceTree = "<group>"; };
 		28439A7D21CCBC0B007E86BF /* YUNNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUNNewsCell.h; sourceTree = "<group>"; };
+		28439A8A21D0C295007E86BF /* UIView+QNUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QNUtil.h"; sourceTree = "<group>"; };
+		28439A8B21D0C295007E86BF /* UIView+QNUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QNUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 		28439A7021CC909C007E86BF /* class */ = {
 			isa = PBXGroup;
 			children = (
+				28439A8921D0C1EF007E86BF /* UIKitCategory */,
 				28439A7521CCBC0A007E86BF /* WechatIMG14.jpeg */,
 				28439A7A21CCBC0A007E86BF /* WechatIMG15.jpeg */,
 				28439A7921CCBC0A007E86BF /* WechatIMG16.jpeg */,
@@ -107,6 +111,15 @@
 				28439A7221CC90C9007E86BF /* YUNDetailViewController.m */,
 			);
 			path = class;
+			sourceTree = "<group>";
+		};
+		28439A8921D0C1EF007E86BF /* UIKitCategory */ = {
+			isa = PBXGroup;
+			children = (
+				28439A8A21D0C295007E86BF /* UIView+QNUtil.h */,
+				28439A8B21D0C295007E86BF /* UIView+QNUtil.m */,
+			);
+			path = UIKitCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +199,7 @@
 			files = (
 				28439A6721CC8EE4007E86BF /* main.m in Sources */,
 				28439A8021CCBC0B007E86BF /* YUNNewsCell.m in Sources */,
+				28439A8C21D0C295007E86BF /* UIView+QNUtil.m in Sources */,
 				28439A8121CCBC0B007E86BF /* YUNNewsItem.m in Sources */,
 				28439A5921CC8EE2007E86BF /* AppDelegate.m in Sources */,
 				28439A7321CC90C9007E86BF /* YUNDetailViewController.m in Sources */,
