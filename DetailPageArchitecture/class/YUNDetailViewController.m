@@ -12,6 +12,11 @@
 #import "YUNNewsItem.h"
 #import "UIView+QNUtil.h"
 
+/**
+ * 处理内容底层页的架构设计
+ * 1、协同滚动
+ * 2、
+ */
 @interface YUNDetailViewController () <WKUIDelegate, WKNavigationDelegate, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
 @property(nonatomic, strong) UIScrollView *containerScrollView;
@@ -34,8 +39,6 @@
     [self.containerScrollView addSubview:self.tableview];
     NSLog(@"viewDidLoad %f", self.tableview.contentSize.height);
     
-    [self.webView addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionPrior context:nil];
-    
     self.newsList = [NSMutableArray array];
     [self.newsList addObject:[[YUNNewsItem alloc] initWithTitle:@"全球科技媒体头条|谷歌抨击亚马逊贸然商业化面部识别技术" imgUrl:@"WechatIMG19.jpeg"]];
     [self.newsList addObject:[[YUNNewsItem alloc] initWithTitle:@"较真|从不省电的角度，建议你拔掉不经常使用电器的电源" imgUrl:@"WechatIMG18.jpeg"]];
@@ -44,23 +47,11 @@
     [self.newsList addObject:[[YUNNewsItem alloc] initWithTitle:@"对话被打的滴滴投资人：被司机暴打后，我要这种公司干嘛" imgUrl:@"WechatIMG15.jpeg"]];
     [self.newsList addObject:[[YUNNewsItem alloc] initWithTitle:@"腾讯宣布已向港交所提交有关腾讯音乐分拆建议，得到港交所确认" imgUrl:@"WechatIMG14.jpeg"]];
     
-//    NSURL *url = [[NSURL alloc] initWithString:@"https://www.jianshu.com/nb/21258903"];
-//    NSURL *url = [[NSURL alloc] initWithString:@"https://www.jianshu.com/nb/19826337"]; // 内容很长的链接
     NSURL *url = [[NSURL alloc] initWithString:@"https://www.weiyun.com/"];
     
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     
     [self.webView loadRequest:request];
-}
-
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
-//    id oldName = [change objectForKey:NSKeyValueChangeOldKey];
-//    NSLog(@"oldName----------%@",oldName);
-//    id newName = [change objectForKey:NSKeyValueChangeNewKey];
-//    NSLog(@"newName-----------%@",newName);
-//    //当界面要消失的时候,移除kvo
-//    //    [object removeObserver:self forKeyPath:@"name"];
-    NSLog(@"observeValueForKeyPath %f", self.webView.frame.origin.y);
 }
 
 -(void)dealloc {
@@ -178,7 +169,7 @@
     } else {
         NSLog(@"不动");
     }
-        
+    
 }
 
 @end
